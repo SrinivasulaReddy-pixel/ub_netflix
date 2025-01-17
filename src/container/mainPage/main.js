@@ -1,9 +1,13 @@
 import React from 'react'
+import { MainSection } from '../../components/mainSection/mainSection'
 
 export const MainPage=()=>{
     return (
         <div>
-            hello page
+            <div className='row '>
+                <MainSection/>
+
+            </div>
         </div>
     )
 }

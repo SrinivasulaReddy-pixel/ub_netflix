@@ -1,0 +1,47 @@
+.feature-section-layout {
+    background-color: rgb(18 34 45);
+}
+
+.feature-section-content {
+    padding-bottom: 6rem;
+    padding-top: 6rem;
+}
+
+.feature-section-description {
+    font-family: "Poppins", serif;
+    font-weight: 800;
+    font-style: normal;
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    /* Arrange text vertically */
+
+    align-items: center;
+    /* Center text horizontally */
+    text-align: center;
+    /* Ensure text inside spans is centered */
+    /* Full viewport height for vertical centering */
+    padding: 0 6rem;
+   
+    /* Font for better readability */
+    color: var(--text-color);
+    background-color: transparent;
+    justify-content: center;
+   
+
+}
+
+.feature-section-description-line-one {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.feature-section-description-line-two {
+    font-size: 24px;
+    font-weight: 200;
+    width: 65%;
+}
+
+.feature-section-image {
+
+}

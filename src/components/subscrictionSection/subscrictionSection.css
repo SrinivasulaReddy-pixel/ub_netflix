@@ -1,0 +1,117 @@
+.Subscriction-Section-layout{
+    background-color: var(--secondary-color);
+}
+.Subscriction-Section-content{
+    padding: 6rem 10rem;
+}
+.Subscriction-Section-content .ant-card .ant-card-body{
+    padding:0px!important;
+
+}
+.subscription-section-card-content{
+    text-align: center;
+    opacity: 0.80;
+    background-color: var(--secondary-color);
+    
+}
+.subscription-section-card-title{
+    color: white;
+   
+    opacity: 0.80;
+    background-color: var(--secondary-color);
+    /* opacity: 0.6; */
+    padding:2rem 1.5rem;
+}
+.subscription-section-card-title-price{
+    font-size:30px;
+    font-weight: 600;
+
+}
+.subscription-section-card-content ul{
+    list-style-type: none;
+    opacity: 0.80;
+    background-color: var(--secondary-color);
+    padding: 2rem 0rem;
+    padding-bottom: 0rem;
+    margin-bottom: 0!important;
+}
+.subscription-section-card-content ul li{
+    color: var(--text-color);
+    line-height: 2.5rem;
+
+}
+.subscription-section-card-button-section{
+    background-color: var(--secondary-color);
+    opacity: 0.80;
+    
+}
+.subscription-section-card-button-section{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.subscription-section-card-button-section span{
+    text-align: center;
+    padding-top: 2rem;
+}
+.subscription-section-card-button-section  span button{
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    outline:none;
+    padding:0.5rem 1rem;
+    border-radius: 8px;
+  }
+
+.Subscriction-Section-content .ant-card{
+    min-width: 22rem!important;
+    max-width: fit-content !important;
+}
+.subscription-section-card-title::before{
+    border-radius: 100%;
+}
+.subscription-section-card-title {
+    position: relative;
+    padding: 20px;
+    text-align: center;
+    z-index: 1; /* Ensures content stays above the background */
+  }
+  
+  .subscription-section-card-title::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 18vh;
+    background-color: gray;
+    transform: rotate(0deg);
+    border-radius: 0 0 550px 300px;
+    z-index: 1;
+  }
+  
+  .subscription-section-card-title {
+    position: relative;
+    padding: 20px;
+    text-align: center;
+    z-index: 2; /* Ensure the content is above the background */
+  }
+  
+  .subscription-section-card-title-price,
+  .subscription-section-card-title span {
+    position: relative;
+    z-index: 3; /* Keep the price and "Free" text above everything else */
+  }
+  
+  .subscription-section-card-title::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 18vh;
+    background-color: rgb(103, 102, 102);
+    transform: rotate(0deg);
+    border-radius: 0 0 550px 300px;
+    z-index: 1; /* Ensure the background stays below the content */
+  }
+  

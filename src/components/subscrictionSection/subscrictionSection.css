@@ -12,7 +12,6 @@
     text-align: center;
     opacity: 0.80;
     background-color: var(--secondary-color);
-    
 }
 .subscription-section-card-title{
     color: white;
@@ -103,7 +102,7 @@
   }
   
   .subscription-section-card-title::before {
-    content: '';
+    content: 'ffff';
     position: absolute;
     top: 0;
     left: 0;
@@ -115,3 +114,49 @@
     z-index: 1; /* Ensure the background stays below the content */
   }
   
+                   /* CRAD 2 */
+
+  .subscription-section-card-title-2{
+    color: white;
+   
+    opacity: 0.80;
+    background-color: var(--primary-color);
+    /* opacity: 0.6; */
+    padding:2rem 1.5rem
+  }
+
+
+.subscription-section-card-title-price-2{
+    font-size:30px;
+    font-weight: 600;
+
+}
+
+
+  .black-button-2{
+    background-color: var(--primary-color);
+    opacity: 1;
+  }
+
+
+  .subscription-section-card-button-section-2{
+    background-color: var(--secondary-color);
+    opacity: 0.80;
+    
+}
+.subscription-section-card-button-section-2{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.subscription-section-card-button-section-2 span{
+    text-align: center;
+    padding-top: 2rem;
+}
+.subscription-section-card-button-section-2  span button{
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    outline:none;
+    padding:0.5rem 1rem;
+    border-radius: 8px;
+  }

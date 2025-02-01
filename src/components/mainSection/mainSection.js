@@ -3,6 +3,7 @@ import backgroundImage from "../../assets/img/main-section-image.webp";
 import "./mainSection.css";
 import { AudioOutlined } from "@ant-design/icons";
 import { Input, Space } from "antd";
+import { useNavigate } from 'react-router-dom';
 const { Search } = Input;
 
 const suffix = (
@@ -16,6 +17,11 @@ const suffix = (
 const onSearch = (value, _e, info) => console.log(info?.source, value);
 
 export const MainSection = () => {
+  const navigate = useNavigate();
+
+  const handleSignIn = () => {
+    navigate('/Register'); // Navigate to the Register page
+  };
   return (
     <div className="main-section-layout">
       <div className="row main-section-innercomponent">
@@ -28,7 +34,7 @@ export const MainSection = () => {
             <div className="col-6 main-section-header-logo-section">Stremo</div>
             <div className="col-6 main-section-header-signin-button">
               <span>
-                <button>Sign In</button>
+                <button onClick={(e)=>{e.preventDefault();handleSignIn()}}>Sign In</button>
               </span>
             </div>
           </div>

@@ -5,6 +5,7 @@ import { FunfactSection } from "../../components/funfactSection/funfactSection";
 import { SubscrictionSection } from "../../components/subscrictionSection/subscrictionSection";
 import { FeatureSection2 } from "../../components/featureSection2/featureSection2";
 import { FooterCenterArea } from "../../components/footerCenterArea/footerCenterArea";
+import { StremeoCardCarousel } from "../../components/cardCarousel/card";
 
 export const MainPage = () => {
   return (
@@ -18,15 +19,18 @@ export const MainPage = () => {
       <div className="row">
         <FunfactSection/>
       </div>
-      <div>
+      <div className="row">
         <SubscrictionSection/>
       </div>
-      <div>
+      <div className="row">
         <FeatureSection2/>
       </div>
-      <div>
-        <FooterCenterArea/>
+      <div className="row">
+        <StremeoCardCarousel/>
       </div>
+      {/* <div className="row">
+        <FooterCenterArea/>
+      </div> */}
     </div>
   );
 };

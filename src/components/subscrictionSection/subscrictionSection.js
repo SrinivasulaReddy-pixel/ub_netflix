@@ -7,7 +7,7 @@ export const SubscrictionSection = () => {
   return (
     <div className="Subscriction-Section-layout">
       <div className="row Subscriction-Section-content">
-        <div className="col-4">
+        <div className="col-lg-4 col-md-6">
           <Card  bordered={false}>
             <div className="subscription-section-card-content">
               <div className="subscription-section-card-title">
@@ -36,7 +36,7 @@ export const SubscrictionSection = () => {
             </div>
           </Card>
         </div>
-        <div className="col-4">
+        <div className="col-lg-4 col-md-6">
         <Card bordered={false}>
         <div className="subscription-section-card-content">
               <div className="subscription-section-card-title-2">
@@ -66,7 +66,7 @@ export const SubscrictionSection = () => {
         </Card>
         </div>
         
-        <div className="col-4">
+        <div className="col-lg-4">
           <Card bordered={false}>
           <div className="subscription-section-card-content">
               <div className="subscription-section-card-title">

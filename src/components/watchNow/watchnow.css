@@ -1,0 +1,36 @@
+.watchnow-layout{
+    background-color: var(--secondary-color);
+}
+.watchnow-headline{
+    background-color: rgb(30 39 45);
+    color: var(--text-color);
+    padding: 1.5rem;
+    font-size: large;
+}
+
+.watchnow-headline-col1{
+    text-align: end;
+    font-weight: 800;
+    font-size:x-large;
+}
+
+.watchnow-headline-col2{
+    padding-left: 1px;
+    margin: auto;
+}
+
+
+.watchnow-body{
+    padding: 2rem;
+    color: var(--text-color);
+    
+}
+.watchnow-video{
+    width: 100%;
+    padding: 1rem 0;
+}
+.movie-section iframe{
+    width: 80vw  !important;
+    height: 50vh !important;
+}
+

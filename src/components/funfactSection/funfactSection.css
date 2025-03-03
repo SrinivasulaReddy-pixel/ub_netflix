@@ -22,3 +22,14 @@ font-weight: 600;
 color: var(--text-color);
 font-size: 26px;
 }
+@media only screen and (max-width: 700px) {
+    .funfact-section-content-description-nm {
+       
+        font-size: 25px;
+        
+    }
+    .funfact-section-content-description-txt {
+        
+        font-size: 16px;
+    }
+}

@@ -6,7 +6,7 @@ export const FeatureSection2 = () => {
   return (
     <div className="feature-Section2-layout">
       <div className="row feature-section2-content">
-        <div className="col-6 feature-section2-description">
+        <div className="col-lg-6 feature-section2-description">
           <span className="feature-section2-description-one">
             Watch Anywhere You Want.
           </span>
@@ -21,7 +21,7 @@ export const FeatureSection2 = () => {
             </button>
           </div>
         </div>
-        <div className="col-6 feature-section2-image">
+        <div className="col-lg-6 feature-section2-image">
           <span>
             <img src={featureImage2} className="img-fluid" />
           </span>

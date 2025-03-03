@@ -3,6 +3,8 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import "./card.css";
 import { moviesData } from "../../json/movies";
+import { useNavigate } from "react-router-dom";
+
 
 const responsive = {
   superLargeDesktop: { breakpoint: { max: 4000, min: 3000 }, items: 5 },
@@ -13,6 +15,11 @@ const responsive = {
 
 export const StremeoCardCarousel = () => {
   const [hoveredMovie, setHoveredMovie] = useState(null);
+  const navigate = useNavigate();
+
+  const handleWatchNow = ()=>{
+    navigate('/WatchNow')
+  }
 
   return (
     <div className="stremeo-card-carousel">
@@ -44,7 +51,7 @@ export const StremeoCardCarousel = () => {
                   </p>
                   <p className="carousel-movie-button">
                     <span>
-                      <button>Watch Now</button>
+                      <button onClick={(e)=>{e.preventDefault();handleWatchNow()}}>Watch Now</button>
                     </span>
                   </p>
                 </div>

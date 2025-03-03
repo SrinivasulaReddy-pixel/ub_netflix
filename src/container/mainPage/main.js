@@ -6,6 +6,7 @@ import { SubscrictionSection } from "../../components/subscrictionSection/subscr
 import { FeatureSection2 } from "../../components/featureSection2/featureSection2";
 import { FooterCenterArea } from "../../components/footerCenterArea/footerCenterArea";
 import { StremeoCardCarousel } from "../../components/cardCarousel/card";
+import { Header } from "../../components/header/header";
 
 export const MainPage = () => {
   return (
@@ -28,9 +29,10 @@ export const MainPage = () => {
       <div className="row">
         <StremeoCardCarousel/>
       </div>
-      {/* <div className="row">
+      <div className="row">
         <FooterCenterArea/>
-      </div> */}
+      </div>
+      
     </div>
   );
 };

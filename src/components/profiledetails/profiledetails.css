@@ -1,0 +1,35 @@
+.profile-details{
+    background-color: var(--secondary-color);
+}
+
+.profile-details-layout{
+    color: var(--text-color);
+}
+
+.profile-details-account{
+    padding: 1.5rem;
+}
+.profile-details-account:hover{
+    text-decoration: underline red;
+   
+}
+
+.profile-details-payment:hover{
+    text-decoration: underline red;
+    
+}
+@media only screen and (max-width: 800px) {
+    .profile-details-layout{
+        padding-top: 5%;
+    }
+    .payment-info-description-row2 img{
+        height: 20vh;
+    }
+
+    .payment-info-description-row2-col7{
+        padding-left:1rem !important;
+    }
+    .payment-info-description-row2-col7 button{
+        margin-top: 1%;
+    }
+}

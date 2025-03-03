@@ -57,3 +57,23 @@
     color: var(--text-color);
     padding: .75rem;
 }
+
+@media only screen and (max-width: 700px) {
+    .feature-section2-description {
+       
+        padding: 0 1rem;
+        
+    }
+    .feature-section2-description-one {
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 55px;
+        margin-left: 0.5rem;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 1024px) {
+    .feature-section2-image{
+        text-align: center;
+    }
+  }

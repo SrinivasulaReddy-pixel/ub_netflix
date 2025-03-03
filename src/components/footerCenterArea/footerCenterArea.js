@@ -15,7 +15,7 @@ export const FooterCenterArea = () => {
     <div className="footer-Center-Area-layout">
     <hr></hr>
       <div className="row footer-Center-Area-content">
-        <div className="col-4 footer-Center-Area-col1">
+        <div className="col-lg-4 footer-Center-Area-col1">
           <div className="footer-Center-Area-col1-row1">
             <img src={footerStremo} />
           </div>
@@ -32,7 +32,7 @@ export const FooterCenterArea = () => {
             <FaInstagram />
           </div>
         </div>
-        <div className="col-8 footer-Center-Area-col2">
+        <div className="col-lg-8 footer-Center-Area-col2">
           <div className="footer-Center-Area-col2-row1">
             <span>Home</span>
             <span>About US</span>
@@ -62,14 +62,15 @@ export const FooterCenterArea = () => {
         </div>
       </div>
       <hr></hr>
-      <div className="row footer-final-content">
-        <div className="col-6 footer-final-content-col1">
+      <div className="footer-final-content-final">
+        <div className=" footer-final-content-col1">
           <span>Copyright © 2022 All right reserve</span>
         </div>
-        <div className="col-6 footer-final-conten-col2">
-          <span>Already have an Account?</span>
-          <button> Login </button>
-        </div>
+        <div className="footer-final-content-col2">
+          <span >Already have an Account?</span>
+          <span className="footer-final-content-button"> LOGIN </span>
+          <button className="red-button footer-member-button">Become a Member</button>
+        </div> 
       </div>
     </div>
   );

@@ -1,0 +1,65 @@
+
+.account-details-layout{
+    padding-top: 3rem;
+}
+
+.account-details-layout input{
+    color: var(--text-color);
+}
+
+.account-details-image-section span img{
+    height: 230px;
+    width: 150px;
+    text-decoration: solid;
+    object-fit: cover;
+    opacity: 1;
+}
+
+.account-details-description h4{
+    padding: 1rem;
+}
+
+.account-details-description span{
+    padding-bottom: 1.5rem; 
+}
+
+.account-details-description div div input{
+    width: 80%;
+    height: 3rem;
+    border: none;
+    outline: none;
+    margin-bottom: 1rem;
+    background-color: rgb(30 39 45);
+    padding-left: 1rem;
+}
+
+.account-details-password-change{
+    padding-top: 2rem;
+    
+}
+
+.account-details-password-change div{
+    padding-top: 0.5rem;
+    padding-bottom: 2rem;
+}
+
+.account-details-password-change div div input{
+    width: 80%;
+    height: 3rem;
+    border: none;
+    outline: none;
+    margin-bottom: 1rem;
+    background-color: rgb(30 39 45);
+    padding: 1rem;
+}
+
+.account-details-password-change div button{
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    padding: 1rem;
+}
+@media only screen and (max-width: 800px) {
+    .account-details-description div div input{
+        width: 95%;
+    }
+}

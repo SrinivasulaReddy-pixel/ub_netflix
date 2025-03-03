@@ -113,3 +113,28 @@
   background: rgba(0, 0, 0, 0.5); /* Dark overlay with 50% transparency */
   /* Put it behind the text */
 }
+@media only screen and (max-width: 700px) {
+  .main-section-content-part {
+    
+    padding: 0px 2rem;
+    
+}
+.main-section-description-section {
+  top: 10%;
+}
+.main-section-description-line-one {
+  font-size: 30px;
+}
+.feature-section-description-line-two {
+  font-size: 9px;
+  font-weight: 200;
+  width: -1%;
+}
+.main-section-search-section .ant-input-search-large .ant-input-affix-wrapper, .ant-input-search-large .ant-input-search-button {
+  height: 50px !important;
+  /* width: 21vw; */
+}
+.main-section-search-section .ant-input-group-wrapper {
+  width: 100% !important;
+}
+}

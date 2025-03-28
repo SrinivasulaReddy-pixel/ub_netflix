@@ -22,9 +22,9 @@ export const MainPage = () => {
     )
   })
 
-  const { data, fetching } = useSelector((state) => state.test)
+  const { data, isFetching } = useSelector((state) => state.test)
 
-  console.log(data, fetching, 'data from redux--->>>')
+  console.log(data, isFetching, 'data from redux--->>>')
 
   return (
     <div>

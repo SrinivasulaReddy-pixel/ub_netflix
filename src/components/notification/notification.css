@@ -1,0 +1,23 @@
+.notification-layer {
+  position: relative;
+  display: inline-block;
+}
+
+.notification-count {
+  position: absolute;
+  top: -19px; /* Adjust the value as needed */
+  right: 6px; /* Adjust the value as needed */
+  background: rgb(116, 125, 153);
+  color:var(--text-color);
+  font-size: 5px;
+  padding: 3px 8px !important;
+  border-radius: 50%;
+  min-width: 20px;
+  text-align: center;
+}
+.notification-icon {
+  font-size: 14px;
+  border: 1px solid white;
+  font-size: 16px;
+  padding: 10px;
+}

@@ -1,0 +1,79 @@
+.feature-Section2-layout{
+ background-color: rgb(18 34 45);
+}
+
+.feature-section2-content{
+    padding-bottom: 6rem;
+    padding-top: 6rem;
+}
+
+.feature-section2-description{
+    font-family: "Poppins", serif;
+    
+    font-style: normal;
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    /* Arrange text vertically */
+
+    align-items: center;
+    /* Center text horizontally */
+    text-align: center;
+    /* Ensure text inside spans is centered */
+    /* Full viewport height for vertical centering */
+    padding: 0 6rem;
+   
+    /* Font for better readability */
+    color: var(--text-color);
+    background-color: transparent;
+    justify-content: center;
+}
+
+.feature-section2-description-one{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 55px;
+    margin-left: 2.5rem;
+}
+
+.feature-section2-description-two{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-top: 2rem;
+    margin-left: 3rem;
+}
+
+.feature-section2-button{
+    text-align: center;
+    padding: 2rem;
+    
+    border-radius: .125rem;
+}
+
+.feature-section2-button-content{
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    width: 150px;
+    color: var(--text-color);
+    padding: .75rem;
+}
+
+@media only screen and (max-width: 700px) {
+    .feature-section2-description {
+       
+        padding: 0 1rem;
+        
+    }
+    .feature-section2-description-one {
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 55px;
+        margin-left: 0.5rem;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 1024px) {
+    .feature-section2-image{
+        text-align: center;
+    }
+  }

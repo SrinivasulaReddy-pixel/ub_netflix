@@ -1,0 +1,55 @@
+.stremeo-card-carousel{
+    background-color: var(--secondary-color);
+    padding:3rem 2rem;
+}
+.stremeo-card-carousel-header-part{
+    text-align: center;
+}
+.stremeo-card-carousel-header-part span{
+    color: var(--text-color);
+    font-weight: 800;
+    font-size: 2.5rem;
+}
+.stremeo-individual-card-layout img{
+    height: 30rem;
+    width:20rem;
+    object-fit: cover;
+    border-radius: 8px;
+    cursor: pointer;
+    
+    margin-left: 1px;
+
+}
+.stremeo-individual-card-layout img:hover{
+    opacity: 30%;
+}
+.stremeo-card-carousel-section{
+    padding-top: 5rem;
+}
+.movie-quality-overlay{
+    position:absolute;
+    top:70%;
+    left:30%;
+    text-align: center;
+}
+.carousel-movie-name{
+    font-size: 25px;
+    font-weight: 600;
+    color: var(--text-color);
+
+}
+.carousel-movie-quality{
+    color: var(--text-color);
+}
+.carousel-movie-button button{
+    outline: none;
+    border: none;
+    background-color: var(--primary-color);
+    padding:5px;
+    border-radius: 5px;
+    font-size: 14px;
+    color: var(--text-color);
+}
+@media only screen and (max-width: 800px) {
+    
+}
